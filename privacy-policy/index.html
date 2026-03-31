@@ -1,260 +1,197 @@
 <!DOCTYPE html>
-<html lang="{{lang}}">
+<html lang="it">
 <head>
   <meta name="robots" content="noindex, follow">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Informativa sulla Privacy | runelore.it</title>
-    <meta name="description" content="Leggi la nostra Informativa sulla Privacy per capire come raccogliamo, usiamo e proteggiamo i tuoi dati personali.">
+    <title>Privacy Policy 2026 | Gestione Dati e Cookie su Runelore.it</title>
+    <meta name="description" content="Scopri come Runelore.it protegge i tuoi dati personali. Informativa completa aggiornata al 2026 sulla gestione della privacy e l'uso dei cookie per la tua sicurezza.">
     <link rel="canonical" href="https://runelore.it/privacy-policy/">
-    {}
+    
     <script src="https://cdn.tailwindcss.com"></script>
-    <script src="https://unpkg.com/lucide@latest"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;900&display=swap" rel="stylesheet">
     <style>
+        :root {
+            --accent-color: #2d5a27;
+            --accent-hover: #1e3d1a;
+            --heading-color: #1a1a1a;
+            --text-color: #333333;
+            --link-color: #3a7d44;
+            --muted-color: #666666;
+            --bg-light: #f9f9f9;
+            --card-border: #e2e8f0;
+        }
         body {
-            font-family: 'Inter', sans-serif;
-            background-color: #f8fafc;
+            font-family: 'Raleway', sans-serif;
+            color: var(--text-color);
+            background-color: #ffffff;
+            line-height: 1.6;
         }
-        article h1{font-size:2rem;font-weight:800;margin:1.5rem 0 1rem;color:#0f172a}
-        article h2{font-size:1.5rem;font-weight:700;margin:2rem 0 .75rem;color:#0f172a;border-left:4px solid #ef4444;padding-left:1rem}
-        article h3{font-size:1.25rem;font-weight:600;margin:1.5rem 0 .5rem;color:#1e293b}
-        article p{margin-bottom:1rem;line-height:1.75;color:#334155}
-        article ul,article ol{padding-left:1.5rem;margin-bottom:1rem}
-        article li{margin-bottom:.5rem;line-height:1.6}
-        article table{width:100%;border-collapse:collapse;margin:1.5rem 0}
-        article th{background:#f1f5f9;font-weight:700;padding:.75rem;border:1px solid #e2e8f0;text-align:left}
-        article td{padding:.75rem;border:1px solid #e2e8f0}
-        article a{color:#ef4444;text-decoration:underline}
-        article figure img{border-radius:8px}
-        article figcaption{font-size:.875rem;color:#94a3bb;margin-top:.5rem}
-
-        .hero-gradient {
-            background: linear-gradient(to bottom, #ffffff, #f1f5f9);
+        h1, h2, h3, h4, h5, h6 {
+            color: var(--heading-color);
+            font-weight: 700;
         }
-        .brand-shadow:hover {
-            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+        .prose h1, .prose h2, .prose h3 {
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+            color: var(--accent-color);
+        }
+        .prose p {
+            margin-bottom: 1.25rem;
+        }
+        .brand-card {
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+            border: 1px solid var(--card-border);
+        }
+        .brand-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+        }
+        .top-banner {
+            background-color: var(--accent-color);
+            color: white;
+            font-size: 0.8rem;
+            padding: 4px 0;
+        }
+        .nav-link {
+            transition: color 0.2s;
+            font-weight: 500;
+        }
+        .nav-link:hover {
+            color: var(--accent-color);
+        }
+        .btn-primary {
+            background-color: var(--accent-color);
+            color: white;
+            padding: 0.75rem 1.5rem;
+            border-radius: 4px;
+            font-weight: 700;
+            text-transform: uppercase;
+            text-align: center;
+            transition: background-color 0.2s;
+        }
+        .btn-primary:hover {
+            background-color: var(--accent-hover);
+        }
+        @media (max-width: 768px) {
+            .mobile-menu {
+                display: none;
+            }
+            .mobile-menu.active {
+                display: flex;
+            }
         }
     </style>
+    <script type="application/ld+json"></script>
 </head>
-<body class="text-slate-800">
+<body class="bg-white">
 
-    <!-- Top Header -->
-    <header class="bg-white border-b border-gray-100">
-        <div class="container mx-auto px-4 py-2 flex justify-between items-center text-xs text-gray-500">
-            <div class="flex space-x-4">
-                <a href="#" class="hover:text-red-600 transition-colors"><i data-lucide="facebook" class="w-4 h-4"></i></a>
-                <a href="#" class="hover:text-red-600 transition-colors"><i data-lucide="instagram" class="w-4 h-4"></i></a>
-                <a href="#" class="hover:text-red-600 transition-colors"><i data-lucide="twitter" class="w-4 h-4"></i></a>
-                <a href="#" class="hover:text-red-600 transition-colors"><i data-lucide="youtube" class="w-4 h-4"></i></a>
+    <div class="top-banner">
+        <div class="container mx-auto px-4 text-center md:text-left">
+            <span>I migliori siti di gioco online sicuri e certificati 2026</span>
+        </div>
+    </div>
+
+    <header class="border-b sticky top-0 bg-white z-50">
+        <nav class="container mx-auto px-4 py-4 flex justify-between items-center">
+            <div class="text-2xl font-black tracking-tighter text-gray-900">
+                <a href="/">runelore<span class="text-green-700">.it</span></a>
             </div>
-            <div class="hidden md:flex items-center space-x-4">
-                <button class="flex items-center bg-yellow-400 text-gray-900 px-3 py-1 rounded font-bold uppercase text-[10px] tracking-tighter">
-                    <i data-lucide="gift" class="w-3 h-3 mr-1"></i> Bonus esclusivi
-                </button>
+
+            <div class="hidden md:flex space-x-8">
+                
             </div>
+
+            <button id="menu-toggle" class="md:hidden">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+                </svg>
+            </button>
+        </nav>
+        <div id="mobile-nav" class="mobile-menu absolute top-full left-0 w-full bg-white flex-col p-4 shadow-lg border-b md:hidden">
+            
         </div>
     </header>
 
-    <!-- Main Nav -->
-    <nav class="bg-white sticky top-0 z-50 shadow-sm">
+    <section class="bg-gray-50 py-12 md:py-20">
         <div class="container mx-auto px-4">
-            <div class="flex justify-between items-center h-16">
-                <div class="flex items-center">
-                    <a href="/" class="text-2xl font-black italic tracking-tighter text-slate-900">
-                        RUNELORE<span class="text-red-600">.IT</span>
-                    </a>
-                </div>
-                
-                <div class="hidden lg:flex space-x-6 text-sm font-bold uppercase text-slate-600">
-                    <a href="#" class="hover:text-red-600">Casino Non AAMS</a>
-                    <a href="#" class="hover:text-red-600">Scommesse</a>
-                    <a href="#" class="hover:text-red-600">Licenza Internazionale</a>
-                    <a href="#" class="hover:text-red-600">Pagamenti</a>
-                    <a href="#" class="hover:text-red-600">Deposito Basso</a>
-                </div>
-
-                <div class="flex items-center space-x-4">
-                    <button class="p-2 text-slate-600 hover:text-red-600">
-                        <i data-lucide="search" class="w-5 h-5"></i>
-                    </button>
-                    <button onclick="toggleMenu()" class="lg:hidden p-2 text-slate-600">
-                        <i data-lucide="menu" class="w-6 h-6"></i>
-                    </button>
+            <div class="max-w-4xl">
+                <h1 class="text-4xl md:text-5xl font-black mb-4 leading-tight">Informativa sulla Privacy - Runelore.it</h1>
+                <p class="text-xl text-gray-600"></p>
+                <div class="mt-6 flex items-center text-sm text-gray-500">
+                    <span class="flex items-center">
+                        <svg class="w-4 h-4 mr-1" fill="currentColor" viewBox="0 0 20 20"><path d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z"></path></svg>
+                        Aggiornato: marzo 2026
+                    </span>
+                    <span class="mx-3 text-gray-300">|</span>
+                    <span class="flex items-center">
+                        <svg class="w-4 h-4 mr-1 text-green-600" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                        Verificato
+                    </span>
                 </div>
             </div>
         </div>
-        <!-- Mobile Menu -->
-        <div id="mobile-menu" class="hidden lg:hidden bg-white border-t border-gray-100 px-4 py-4 space-y-4 shadow-xl">
-            <a href="#" class="block text-sm font-bold uppercase">Casino Non AAMS</a>
-            <a href="#" class="block text-sm font-bold uppercase">Scommesse</a>
-            <a href="#" class="block text-sm font-bold uppercase">Licenza Internazionale</a>
-            <a href="#" class="block text-sm font-bold uppercase">Pagamenti</a>
-            <a href="#" class="block text-sm font-bold uppercase">Deposito Basso</a>
+    </section>
+
+    <main class="container mx-auto px-4 py-12">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-12">
+            <div class="lg:col-span-12">
+                <div class="mb-12">
+                    
+                </div>
+
+                <article class="prose prose-lg max-w-none">
+                    <h1>Informativa sulla Protezione dei Dati Personali (2026)</h1><p>Su Runelore.it, la protezione della tua navigazione è sacra quanto l'antica saggezza delle rune. In questa pagina descriviamo in modo trasparente come gestiamo, proteggiamo e trattiamo i dati raccolti durante la tua permanenza sul nostro portale dedicato alla comparazione di casinò online.</p><h2>1. Tipologia di Dati Raccolti</h2><p>Il nostro sito è principalmente informativo. Non richiediamo la creazione di un account per accedere alle recensioni. Tuttavia, raccogliamo dati tecnici anonimi come:</p><ul><li>Indirizzi IP (anonimizzati) per scopi statistici.</li><li>Dati di navigazione (pagine visitate, tempo di permanenza).</li><li>Informazioni sul dispositivo e sul browser utilizzato.</li></ul><h2>2. Utilizzo dei Cookie</h2><p>Utilizziamo i cookie per migliorare l'esperienza dell'utente. Questi piccoli file di testo ci permettono di capire quali contenuti sono più apprezzati e di ottimizzare le prestazioni del sito. Puoi gestire le tue preferenze sui cookie direttamente dalle impostazioni del tuo browser in qualsiasi momento nel corso del 2026.</p><h2>3. Finalità del Trattamento</h2><p>I dati raccolti servono esclusivamente a:</p><ul><li>Monitorare il corretto funzionamento del sito.</li><li>Prevenire attività fraudolente o attacchi informatici.</li><li>Fornire analisi aggregate sulle tendenze del mercato del gioco in Italia.</li></ul><h2>4. Diritti dell'Interessato</h2><p>In conformità con il GDPR, hai il diritto di richiedere l'accesso, la rettifica o la cancellazione dei dati che ti riguardano. Per qualsiasi richiesta relativa alla tua privacy, puoi scrivere direttamente a <strong>info@runelore.it</strong>. Ci impegniamo a rispondere entro i termini di legge.</p>
+                </article>
+            </div>
         </div>
-    </nav>
-
-    <!-- Main Content -->
-    <main class="container mx-auto px-4 py-8 max-w-5xl">
-        <!-- Hero Section -->
-        <section class="mb-10 text-center md:text-left">
-            <nav class="text-xs text-gray-400 mb-4">
-                Casinò non AAMS &raquo; Casinò Deposito Minimo 1 Euro
-            </nav>
-            <h1 class="text-3xl md:text-5xl font-black text-slate-900 mb-6 leading-tight">
-                I Migliori Casinò Online con Deposito Minimo 1 Euro in Italia a <span class="text-red-600">Marzo 2026</span>
-            </h1>
-            <div class="flex flex-wrap items-center justify-center md:justify-start gap-4 text-xs text-slate-500 mb-8">
-                <div class="flex items-center">
-                    <i data-lucide="user" class="w-4 h-4 mr-1"></i>
-                    Autore: <span class="font-bold ml-1 text-slate-700">Redazione Runelore</span>
-                </div>
-                <div class="flex items-center">
-                    <i data-lucide="calendar" class="w-4 h-4 mr-1"></i>
-                    Aggiornato: <span class="font-bold ml-1 text-slate-700">01.03.2026</span>
-                </div>
-                <div class="flex items-center">
-                    <i data-lucide="clock" class="w-4 h-4 mr-1"></i>
-                    Tempo di lettura: <span class="font-bold ml-1 text-slate-700">12 min</span>
-                </div>
-            </div>
-            <p class="text-lg text-slate-600 leading-relaxed max-w-3xl">
-                Scopri la nostra selezione curata dei migliori casinò online che accettano depositi a partire da solo 1 euro. Abbiamo testato ogni piattaforma per garantire sicurezza, velocità nei pagamenti e bonus generosi anche per piccoli investimenti nel 2026.
-            </p>
-        </section>
-
-        <!-- Brand Cards -->
-        <section class="mb-12">
-            <div class="flex items-center justify-between mb-6">
-                <h2 class="text-2xl font-bold text-slate-900">Lista casinò online con deposito minimo 1 euro nel 2026</h2>
-            </div>
-            <div class="space-y-4">
-                
-            </div>
-        </section>
-
-        <!-- Article Content -->
-        <article class="bg-white p-6 md:p-10 rounded-2xl shadow-sm border border-gray-100">
-            <h1>Informativa sulla Privacy</h1>
-<p>Ultimo aggiornamento: 2026</p>
-<p>La presente Informativa sulla Privacy descrive come runelore.it ("noi", "ci" o "nostro") raccoglie, utilizza e condivide informazioni su di te quando utilizzi il nostro sito web https://runelore.it (il "Sito").</p>
-
-<h2>1. Informazioni che Raccogliamo</h2>
-<h3>Dati Personali</h3>
-<p>Informazioni di identificazione personale, come nome e indirizzo email, che ci fornisci volontariamente quando scegli di partecipare a varie attività relative al Sito, come contattarci tramite il nostro modulo di contatto.</p>
-<h3>Dati di Utilizzo</h3>
-<p>Informazioni raccolte automaticamente quando visiti il Sito, come indirizzo IP, tipo di browser, sistema operativo, URL di provenienza e pagine visualizzate. Questi dati vengono raccolti tramite cookie e tecnologie di tracciamento simili.</p>
-
-<h2>2. Utilizzo delle Informazioni</h2>
-<p>Le informazioni raccolte su di te ci permettono di offrirti un'esperienza fluida, efficiente e personalizzata. In particolare, possiamo utilizzare le informazioni raccolte tramite il Sito per:</p>
-<ul>
-<li>Gestire e mantenere il Sito.</li>
-<li>Migliorare e personalizzare la tua esperienza sul Sito.</li>
-<li>Rispondere ai tuoi commenti e domande.</li>
-<li>Monitorare e analizzare l'utilizzo e le tendenze per migliorare il Sito.</li>
-<li>Compilare dati statistici anonimi per uso interno o con terze parti.</li>
-</ul>
-
-<h2>3. Cookie e Tecnologie di Tracciamento</h2>
-<p>Possiamo utilizzare cookie, web beacon, pixel di tracciamento e altre tecnologie di tracciamento sul Sito per aiutare a personalizzarlo e migliorare la tua esperienza. Per ulteriori informazioni su come utilizziamo i cookie, consulta la nostra Cookie Policy.</p>
-
-<h2>4. Sicurezza delle Informazioni</h2>
-<p>Utilizziamo misure di sicurezza amministrative, tecniche e fisiche per proteggere le tue informazioni personali. Sebbene abbiamo adottato misure ragionevoli per proteggere i dati personali che ci fornisci, nessuna misura di sicurezza è perfetta o impenetrabile.</p>
-
-<h2>5. I Tuoi Diritti (GDPR)</h2>
-<p>In qualità di residente nell'Unione Europea, hai i seguenti diritti in merito ai tuoi dati personali:</p>
-<ul>
-<li>Diritto di accesso – hai il diritto di richiedere copie dei tuoi dati personali.</li>
-<li>Diritto di rettifica – hai il diritto di richiedere la correzione di informazioni che ritieni inesatte.</li>
-<li>Diritto alla cancellazione – hai il diritto di richiedere la cancellazione dei tuoi dati personali.</li>
-<li>Diritto di limitazione del trattamento – hai il diritto di richiedere che limitiamo il trattamento dei tuoi dati.</li>
-<li>Diritto alla portabilità dei dati – hai il diritto di richiedere il trasferimento dei tuoi dati.</li>
-</ul>
-<p>Il titolare del trattamento dei dati è: runelore.it</p>
-
-<h2>6. Contattaci</h2>
-<p>Per domande o commenti sulla presente Informativa sulla Privacy, contattaci all'indirizzo: <a href="mailto:info@runelore.it">info@runelore.it</a></p>
-        </article>
     </main>
 
-    <!-- Footer -->
-    <footer class="bg-slate-900 text-white pt-16 pb-8 mt-20">
+    <footer class="bg-neutral-900 text-white pt-16 pb-8">
         <div class="container mx-auto px-4">
             <div class="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
-                <div class="col-span-1 md:col-span-1">
-                    <div class="text-2xl font-black italic tracking-tighter text-white mb-6">
-                        RUNELORE<span class="text-red-600">.IT</span>
+                <div class="md:col-span-1">
+                    <div class="text-2xl font-black tracking-tighter mb-4">runelore.it</div>
+                    <p class="text-gray-400 text-sm">
+                        La tua guida affidabile ai migliori casinò online selezionati dai nostri esperti nel 2026.
+                    </p>
+                    <div class="mt-6 flex space-x-4">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/3/30/18_plus.svg" alt="18+" class="h-8">
+                        <img src="https://www.begambleaware.org/sites/default/files/logo-white.svg" alt="BeGambleAware" class="h-6 opacity-80">
                     </div>
-                    <p class="text-slate-400 text-sm leading-relaxed">
-                        La tua guida definitiva ai casinò online internazionali e sicuri. Recensioni oneste, bonus esclusivi e strategie per il gioco responsabile nel 2026.
+                </div>
+                <div>
+                    <h4 class="text-lg font-bold mb-4">Articoli</h4>
+                    <div class="flex flex-col space-y-2 text-gray-400">
+                        
+                    </div>
+                </div>
+                <div>
+                    <h4 class="text-lg font-bold mb-4">Link Utili</h4>
+                    <div class="flex flex-col space-y-2 text-gray-400">
+                        <a href="https://runelore.it/privacy-policy/">Informativa Privacy</a> · <a href="https://runelore.it/terms/">Termini e Condizioni</a> · <a href="https://runelore.it/about/">Chi Siamo</a> · <a href="https://runelore.it/contacts/">Contatti</a>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="text-lg font-bold mb-4">Disclaimer</h4>
+                    <p class="text-xs text-gray-500 leading-relaxed">
+                        Il gioco è vietato ai minori di 18 anni e può causare dipendenza patologica. Gioca responsabilmente. Le informazioni contenute in questo sito sono a scopo puramente informativo e non costituiscono sollecitazione al pubblico risparmio.
                     </p>
                 </div>
-                <div>
-                    <h4 class="font-bold mb-6 uppercase text-sm tracking-widest">Chi Siamo</h4>
-                    <ul class="space-y-3 text-slate-400 text-sm">
-                        <li><a href="#" class="hover:text-red-500 transition-colors">Il nostro team</a></li>
-                        <li><a href="/contacts/" class="hover:text-red-500 transition-colors">Contatti</a></li>
-                        <li><a href="#" class="hover:text-red-500 transition-colors">Redazione</a></li>
-                        <li><a href="#" class="hover:text-red-500 transition-colors">Lavora con noi</a></li>
-                    </ul>
-                </div>
-                <div>
-                    <h4 class="font-bold mb-6 uppercase text-sm tracking-widest">Legale</h4>
-                    <ul class="space-y-3 text-slate-400 text-sm">
-                        <li><a href="/privacy-policy/" class="hover:text-red-500 transition-colors">Privacy Policy</a></li>
-                        <li><a href="/cookie-policy/" class="hover:text-red-500 transition-colors">Cookie Policy</a></li>
-                        <li><a href="/terms/" class="hover:text-red-500 transition-colors">Termini e Condizioni</a></li>
-                        <li><a href="#" class="hover:text-red-500 transition-colors">Gioco Responsabile</a></li>
-                    </ul>
-                </div>
-                <div>
-                    <h4 class="font-bold mb-6 uppercase text-sm tracking-widest">Seguici</h4>
-                    <div class="flex space-x-4">
-                        <a href="#" class="bg-slate-800 p-2 rounded-full hover:bg-red-600 transition-colors"><i data-lucide="facebook" class="w-5 h-5"></i></a>
-                        <a href="#" class="bg-slate-800 p-2 rounded-full hover:bg-red-600 transition-colors"><i data-lucide="instagram" class="w-5 h-5"></i></a>
-                        <a href="#" class="bg-slate-800 p-2 rounded-full hover:bg-red-600 transition-colors"><i data-lucide="twitter" class="w-5 h-5"></i></a>
-                    </div>
-                </div>
             </div>
-            <div class="border-t border-slate-800 pt-8 text-center text-slate-500 text-xs">
-                <p class="mb-4">Il gioco è vietato ai minori di 18 anni e può causare dipendenza patologica. Gioca responsabilmente.</p>
-                <p>&copy; {{year}} Runelore.it - Tutti i diritti riservati.</p>
+            
+            <div class="border-t border-neutral-800 pt-8 text-center text-sm text-gray-500">
+                <p>© 2026 runelore.it - Tutti i diritti riservati.</p>
             </div>
         </div>
     </footer>
 
-    <!-- Cookie Banner -->
-    <div id="cookie-banner" class="fixed bottom-0 left-0 right-0 bg-slate-900 text-white p-4 z-[100] border-t-2 border-red-600">
-        <div class="container mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
-            <p class="text-xs md:text-sm text-slate-300">
-                Utilizziamo i cookie per migliorare la tua esperienza sul nostro sito. Continuando a navigare, accetti la nostra politica sui cookie.
-            </p>
-            <div class="flex space-x-4">
-                <button onclick="closeCookieBanner()" class="text-xs font-bold uppercase hover:underline">Preferenze</button>
-                <button onclick="closeCookieBanner()" class="bg-red-600 hover:bg-red-700 text-white px-6 py-2 rounded font-bold text-xs uppercase transition-colors">
-                    Accetta Tutto
-                </button>
-            </div>
-        </div>
-    </div>
-
     <script>
-        // Initialize Lucide icons
-        lucide.createIcons();
-
-        // Mobile Menu Toggle
-        function toggleMenu() {
-            const menu = document.getElementById('mobile-menu');
-            menu.classList.toggle('hidden');
-        }
-
-        // Cookie Banner Close
-        function closeCookieBanner() {
-            const banner = document.getElementById('cookie-banner');
-            banner.style.display = 'none';
-        }
+        document.getElementById('menu-toggle').addEventListener('click', function() {
+            document.getElementById('mobile-nav').classList.toggle('active');
+        });
     </script>
-
-    {{{schema_json}}}
 </body>
 </html>
